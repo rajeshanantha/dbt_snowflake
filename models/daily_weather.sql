@@ -7,9 +7,8 @@ pressure,
 humidity,
 clouds 
 from {{ source('dbtdemo', 'weather') }}
-
-
 ),
+
 weather_agg as (
     select 
     daily_weather,
