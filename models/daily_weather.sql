@@ -25,4 +25,5 @@ qualify ROW_NUMBER() OVER (PARTITION BY daily_weather ORDER BY count(weather)des
 )
 
 SELECT 
-* FROM weather_agg
+* 
+FROM weather_agg
